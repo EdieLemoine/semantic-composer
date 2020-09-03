@@ -1,0 +1,26 @@
+{
+  "name": "edielemoine/semantic-composer",
+  "type": "library",
+  "description": "This is a test",
+  "homepage": "https://github.com/EdieLemoine/semantic-composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edie Lemoine",
+      "email": "edie.lemoine@gmail.com"
+    }
+  ],
+  "keywords": [
+    "semantic-release",
+    "release",
+    "automation"
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "EdieLemoine\\SemanticComposer\\": "src"
+    }
+  }
+}
