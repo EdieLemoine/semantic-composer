@@ -1,0 +1,11 @@
+name: Release
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Semantic release
+        uses: brpaz/action-semantic-release@v1
